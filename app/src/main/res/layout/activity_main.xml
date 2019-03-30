@@ -13,10 +13,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="20dp"
+        android:text="@string/choose_sensors"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/choose_sensors" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/compass"
@@ -26,9 +26,9 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:onClick="openSensors"
+        android:text="@string/sensorsBtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:text="@string/sensorsBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/accelerometers"
@@ -38,7 +38,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:onClick="openAccelerometers"
+        android:text="@string/accelerometersBtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/compass"
-        tools:text="@string/accelerometersBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/compass" />
 </androidx.constraintlayout.widget.ConstraintLayout>
