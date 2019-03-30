@@ -2,4 +2,7 @@
     <string name="app_name">MAMN01-Hello-Sensor</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="choose_sensors">Choose sensor(s) to test:</string>
+    <string name="sensorsBtn">Sensors</string>
+    <string name="accelerometersBtn">Accelerometers</string>
 </resources>
