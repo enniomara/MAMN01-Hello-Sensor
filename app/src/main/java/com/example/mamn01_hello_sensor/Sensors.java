@@ -33,6 +33,7 @@ public class Sensors extends AppCompatActivity implements SensorEventListener {
 
     private void start() {
         mRotationV = mSensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR);
+        mSensorManager.registerListener(this, mRotationV, SensorManager.SENSOR_DELAY_UI);
     }
 
     @Override
