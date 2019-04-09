@@ -5,4 +5,7 @@
     <string name="choose_sensors">Choose sensor(s) to test:</string>
     <string name="sensorsBtn">Sensors</string>
     <string name="accelerometersBtn">Accelerometers</string>
+    <string name="accelerometer_value_x">X: %1$f</string>
+    <string name="accelerometer_value_y">Y: %1$f</string>
+    <string name="accelerometer_value_z">Z: %1$f</string>
 </resources>

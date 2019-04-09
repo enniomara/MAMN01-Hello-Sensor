@@ -6,4 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".Accelerometers">
 
+    <TextView
+        android:id="@+id/accelerometer_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/accelerometer_value_x" />
+
+    <TextView
+        android:id="@+id/accelerometer_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accelerometer_x"
+        tools:text="@string/accelerometer_value_y" />
+
+    <TextView
+        android:id="@+id/accelerometer_z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accelerometer_y"
+        tools:text="@string/accelerometer_value_z" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
